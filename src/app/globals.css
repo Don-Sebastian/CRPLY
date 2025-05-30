@@ -5,5 +5,10 @@
     --font-dmSans: var(--font-dm-sans);
     --font-montserrat: var(--font-montserrat);
     --color-primary: #002C15;
+    --color-secondary: #C3F53C;
+    --color-tertiary: #DCDCDC;
+    --color-quaternary: ;
+    --color-light: #ffffff;
+    --color-dark: #000000;
   }
 

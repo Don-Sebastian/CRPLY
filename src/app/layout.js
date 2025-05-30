@@ -23,7 +23,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${dmSans.variable} ${montserrat.variable} antialiased`}>
+      <body className={`${dmSans.variable} ${montserrat.variable}`}>
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           <div className="bg-primary min-h-screen">
             <NavbarComponent />
