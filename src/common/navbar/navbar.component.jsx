@@ -27,18 +27,20 @@ export default function NavbarComponent() {
           {!openMenu && <MenuIcon onClick={() => setopenMenu(true)} />}
         </div>
       </div>
-      <div className={`${ openMenu ? " block " : " hidden md:block "}" flex flex-col md:flex-row gap-[32px]  md:items-center "`}>
-        <div className="flex flex-col md:flex-row justify-between gap-[12px] md:gap-[32px] text-tertiary">
-          <Link href={"/about-us"}>About</Link>
-          <Link href={"/products"}>Product</Link>
-          <Link href={"/vision"}>Vision</Link>
-          <Link href={"/gallery"}>Gallery</Link>
-        </div>
-        <div className="flex flex-col md:flex-row gap-[16px]">
-          <CustomMUIButton outlined className="">
-            Sales
-          </CustomMUIButton>
-          <CustomMUIButton className="">Contact</CustomMUIButton>
+      <div className={`${openMenu ? " block " : " hidden md:block "} `}>
+        <div className="flex flex-col md:flex-row gap-[32px]  md:items-center">
+          <div className="flex flex-col md:flex-row justify-between gap-[12px] md:gap-[32px] text-tertiary">
+            <Link href={"/about-us"}>About</Link>
+            <Link href={"/products"}>Product</Link>
+            <Link href={"/vision"}>Vision</Link>
+            <Link href={"/gallery"}>Gallery</Link>
+          </div>
+          <div className="flex flex-col md:flex-row gap-[16px]">
+            <CustomMUIButton outlined className="">
+              Sales
+            </CustomMUIButton>
+            <CustomMUIButton className="">Contact</CustomMUIButton>
+          </div>
         </div>
       </div>
     </div>
