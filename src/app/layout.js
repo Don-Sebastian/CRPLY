@@ -2,6 +2,7 @@ import { DM_Sans, Montserrat } from "next/font/google";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import "./globals.css";
 import NavbarComponent from "@/common/navbar/navbar.component";
+import FooterComponent from "@/common/footer/footer.component";
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -28,7 +29,7 @@ export default function RootLayout({ children }) {
           <div className="bg-primary min-h-screen">
             <NavbarComponent />
             {children}
-            <footer className="font-dmSans">footer</footer>
+            <FooterComponent />
           </div>
         </AppRouterCacheProvider>
       </body>
