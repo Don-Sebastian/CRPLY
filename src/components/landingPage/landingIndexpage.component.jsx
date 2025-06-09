@@ -13,8 +13,8 @@ export default function LandingPageSection1Component() {
         className="-mt-[28px] absolute "
         fill
       />
-      <div className="py-[80px] md:py-[150px] px-[20px] flex flex-col items-center  justify-center ">
-        <div className=" z-10 flex flex-col items-center  justify-center gap-[16px] md:gap-[24px] -mt-[50px]">
+      <div className="py-[80px] md:py-[150px] px-[20px] flex flex-col items-center  justify-center max-w-[1440px] m-auto">
+        <div className=" z-10 relative  flex flex-col items-center  justify-center gap-[16px] md:gap-[24px] -mt-[50px]">
           <div className="flex justify-center items-center ">
             <div className=" gap-[12px] flex items-center bg-[#F4FFD6] text-center  p-[4px] rounded-full ">
               <div className="px-[10px] py-[3px] bg-secondary rounded-full text-[12px] md:text-[14px] font-medium">

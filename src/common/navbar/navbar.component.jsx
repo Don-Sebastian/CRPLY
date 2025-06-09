@@ -12,7 +12,7 @@ export default function NavbarComponent() {
   const [openMenu, setopenMenu] = useState(false)
 
   return (
-    <div className="px-[20px] md:px-[64px] gap-[32px] py-[16px] flex flex-col md:flex-row justify-between">
+    <div className="px-[20px] md:px-[64px] gap-[32px] py-[16px] flex flex-col md:flex-row justify-between max-w-[1440px] m-auto">
       <div className="flex justify-between items-center">
         <Link href={"/"} className="flex gap-[10px] items-center ">
           <div className="w-[25px] h-[25px] md:w-[40px] md:h-[40px] relative">
@@ -30,7 +30,7 @@ export default function NavbarComponent() {
       <div className={`${openMenu ? " block " : " hidden md:block "} `}>
         <div className="flex flex-col md:flex-row gap-[32px]  md:items-center">
           <div className="flex flex-col md:flex-row justify-between gap-[12px] md:gap-[32px] text-tertiary">
-            <Link href={"/about-us"}>About</Link>
+            <Link href={"/about-us"}>About Us</Link>
             <Link href={"/products"}>Product</Link>
             <Link href={"/vision"}>Vision</Link>
             <Link href={"/gallery"}>Gallery</Link>

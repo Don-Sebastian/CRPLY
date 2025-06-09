@@ -30,8 +30,8 @@ export default function LandingPageSection2Component() {
   ];
 
   return (
-    <div className="bg-light py-[64px] md:py-[112px] px-[20px] md:px-[64px] rounded-t-[100px] -mt-[200px] relative opacity-100 z-20">
-      <div className="flex-col flex gap-[24px] items-center">
+    <div className=" bg-light py-[64px] md:py-[112px] px-[20px] md:px-[64px] rounded-t-[50px] md:rounded-t-[100px] -mt-[200px] relative opacity-100 z-20">
+      <div className="flex-col flex gap-[24px] items-center max-w-[1440px] m-auto">
         <div className="text-primary font-bold text-[32px] md:text-[48px] text-center">
           A Legacy of Strength. A Future of Innovation.
         </div>
@@ -43,7 +43,7 @@ export default function LandingPageSection2Component() {
           reliability, and customer-first partnerships.
         </div>
       </div>
-      <div className="grid lg:grid-cols-3 gap-[25px] mt-[40px] md:mt-[80px]">
+      <div className="grid lg:grid-cols-3 gap-[25px] mt-[40px] md:mt-[80px] max-w-[1440px] m-auto">
         <div className="bg-primary rounded-[9px] p-[24px] col-span-2">
           <div className="flex flex-col md:flex-row items-start md:items-center gap-[20px] md:gap-[56px] py-[20px] md:py-[32px]">
             <div className="min-w-[100px] min-h-[80px] relative md:hidden">

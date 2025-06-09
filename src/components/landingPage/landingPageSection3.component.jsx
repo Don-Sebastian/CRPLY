@@ -14,8 +14,9 @@ export default function LandingPageSection3Component() {
         title: "Dedicated B2B support for long-term partnerships",
       },
     ];
-    return (
-      <div className="bg-light2 px-[20px] py-[64px] md:px-[64px] md:py-[112px] flex flex-col md:flex-row gap-[px] lg:gap-[80px] items-center">
+  return (
+    <div className="bg-light2">
+      <div className=" max-w-[1440px] m-auto px-[20px] py-[64px] md:px-[64px] md:py-[112px] flex flex-col md:flex-row gap-[px] lg:gap-[80px] items-center">
         <div className="w-[640px] h-[640px] min-w-[350px] relative hidden md:block">
           <Image src={IndaLocations} alt="India locations" className=" " fill />
         </div>
@@ -61,9 +62,10 @@ export default function LandingPageSection3Component() {
             ))}
           </div>
         </div>
-        <div className="w-[335px] h-[335px] relative md:hidden">
+        <div className="w-full h-[335px] relative md:hidden">
           <Image src={IndaLocations} alt="India locations" className=" " fill />
         </div>
       </div>
-    );
+    </div>
+  );
 }
