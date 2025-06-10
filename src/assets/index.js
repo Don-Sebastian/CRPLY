@@ -16,3 +16,4 @@ export { default as ProductsImageMainSection } from "./icons/ProductsBanner.png"
 export { default as BlancPlyImage } from "./icons/blancPly.png";
 export { default as TerraPlyImage } from "./icons/TerraPly.png";
 export { default as ArrowRightIcon } from "./icons/arrowRight.svg";
+export { default as AboutUsBanner } from "./icons/aboutUsBanner.png";

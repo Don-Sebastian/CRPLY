@@ -1,6 +1,7 @@
-import { ProductsImageMainSection } from '@/assets';
-import Image from 'next/image';
-import React from 'react'
+"use client";
+import { ProductsImageMainSection } from "@/assets";
+import Image from "next/image";
+import React from "react";
 
 export default function ProductsPageSection1Component() {
   return (

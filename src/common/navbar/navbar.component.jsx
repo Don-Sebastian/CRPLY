@@ -32,14 +32,16 @@ export default function NavbarComponent() {
           <div className="flex flex-col md:flex-row justify-between gap-[12px] md:gap-[32px] text-tertiary">
             <Link href={"/about-us"}>About Us</Link>
             <Link href={"/products"}>Product</Link>
-            <Link href={"/vision"}>Vision</Link>
-            <Link href={"/gallery"}>Gallery</Link>
+            {/* <Link href={"/vision"}>Vision</Link>
+            <Link href={"/gallery"}>Gallery</Link> */}
           </div>
           <div className="flex flex-col md:flex-row gap-[16px]">
-            <CustomMUIButton outlined className="">
+            {/* <CustomMUIButton outlined className="">
               Sales
-            </CustomMUIButton>
-            <CustomMUIButton className="">Contact</CustomMUIButton>
+            </CustomMUIButton> */}
+            <Link href={"/contact-us"}>
+              <CustomMUIButton className="">Contact Us</CustomMUIButton>
+            </Link>
           </div>
         </div>
       </div>

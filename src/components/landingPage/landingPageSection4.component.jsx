@@ -2,6 +2,7 @@ import { PlywoodProductLogoLandingPage } from '@/assets';
 import CustomMUIButton from '@/elements/mui/customButton';
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react'
 
 export default function LandingPageSection4Component() {
@@ -15,7 +16,7 @@ export default function LandingPageSection4Component() {
           <div className="text-light text-[16px] md:text-[35px] font-medium">
             Exceptional range of commercial plywood.
           </div>
-          <div>
+          <Link href={"/products"}>
             <CustomMUIButton
               endIcon={
                 <ArrowForwardIcon sx={{ color: "primary" }} className="" />
@@ -23,7 +24,7 @@ export default function LandingPageSection4Component() {
             >
               Check out now
             </CustomMUIButton>
-          </div>
+          </Link>
         </div>
         <div className="w-full h-[350px] lg:w-[530px] lg:h-[500px] relative rounded-[10px] ">
           <Image

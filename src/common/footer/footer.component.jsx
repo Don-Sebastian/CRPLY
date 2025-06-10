@@ -18,21 +18,21 @@ export default function FooterComponent() {
       <div className="flex gap-[40px] md:gap-[88px] flex-col lg:flex-row justify-between">
         <div className="flex gap-[40px] md:gap-[88px] flex-col md:flex-row">
           <div className="flex flex-col gap-[12px]">
-            <Link
-              className="font-bold  text-tertiary text-[20px]"
-              href={"/about-us"}
-            >
+            <div className="font-bold  text-tertiary text-[20px]">
+              Quick Links
+            </div>
+            <Link className="text-tertiary" href={"/about-us"}>
               About Us
             </Link>
             <Link className="text-tertiary" href={"/products"}>
               Products
             </Link>
-            <Link className="text-tertiary" href={"/vision"}>
+            {/* <Link className="text-tertiary" href={"/vision"}>
               Vision
             </Link>
             <Link className="text-tertiary" href={"/gallery"}>
               Gallery
-            </Link>
+            </Link> */}
           </div>
           <div className="flex flex-col gap-[12px]">
             <div className="font-bold text-tertiary text-[20px]">
@@ -75,7 +75,14 @@ export default function FooterComponent() {
             <div className=" flex gap-[12px] text-tertiary text-[14px] ">
               <LocationOnOutlinedIcon />
               <div className="max-w-[190px]">
-                Old 273A New 145, Koozhoor, Airapuram, Ernakulam, Kerala-683541
+                <a
+                  className="hover:underline hover:cursor-pointer  decoration-tertiary underline-offset-2"
+                  href={"https://g.co/kgs/QznJXbZ"}
+                  target="_blank"
+                >
+                  Old 273A New 145, Koozhoor, Airapuram, Ernakulam,
+                  Kerala-683541
+                </a>
               </div>
             </div>
           </div>

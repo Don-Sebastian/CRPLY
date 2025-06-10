@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const ProductData = [
   {
-    title: "CRply BLANC™",
+    title: "CRply BLANC",
     subTitle: "Borpath-Faced Commercial Plywood",
     subHeading: "Clean Finish. Pure Performance.",
     description:
@@ -23,8 +23,8 @@ const ProductData = [
     image: BlancPlyImage,
   },
   {
-    title: "CRply TERRA™",
-    subTitle: "Packing & General Purpose Plywood (Okoume-Faced)",
+    title: "CRply EDGE",
+    subTitle: "Packing & General Purpose Plywood",
     subTitle2: "(Okoume-Faced)",
     subHeading: "Naturally Strong. Sustainably Made.",
     description:
