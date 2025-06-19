@@ -54,7 +54,7 @@ export default function LandingPageSection1Component() {
                 Give an enquiry
               </CustomMUIButton>
             </Link>
-            <Link href={"/contact-us"}>
+            {/* <Link href={"/contact-us"}>
               <CustomMUIButton
                 outlined
                 endIcon={
@@ -66,7 +66,7 @@ export default function LandingPageSection1Component() {
               >
                 Contact sales
               </CustomMUIButton>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
