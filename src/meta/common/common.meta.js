@@ -1,6 +1,10 @@
 export const MetaDataCommon = {
-  title:
-    "CRPLY | Trusted Plywood Manufacturer for Packaging & Export in Kerala, India",
+  title: {
+    default:
+      "CRPLY | Trusted Plywood Manufacturer for Packaging & Export in Kerala, India",
+    template:
+      "%s - CRPLY | Best Plywood Manufacturer in Kerala",
+  },
   description:
     "CRPLY is a sustainable plywood manufacturer in India with 25+ years of expertise in commercial and packing-grade plywood solutions.",
   keywords: [

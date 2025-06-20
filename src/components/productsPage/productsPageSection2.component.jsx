@@ -40,6 +40,18 @@ const ProductData = [
   },
 ];
 
+// export async function generateMetadata({params}) {
+//   return {
+//     title: ProductData.[0].title,
+//     description: ProductData.[0].description
+//     // openGraph: {
+//     //   images: {
+//     //     url: ProductData.[0].imageUrl
+//     //   }
+//     // }
+//   }
+// }
+
 export default function ProductsPageSection2Component() {
   const sliderRef = useRef(null);
 
