@@ -48,6 +48,7 @@ export default function LandingPageSection2Component() {
           <div className="flex flex-col md:flex-row items-start md:items-center gap-[20px] md:gap-[56px] py-[20px] md:py-[32px]">
             <div className="min-w-[100px] min-h-[80px] relative md:hidden">
               <Image
+                loading="lazy"
                 src={PeopleDiscussIcon}
                 alt="people discuss icon"
                 className=" "
@@ -68,6 +69,7 @@ export default function LandingPageSection2Component() {
             </div>
             <div className="min-w-[244px] min-h-[148px] relative hidden md:block">
               <Image
+                loading="lazy"
                 src={PeopleDiscussIcon}
                 alt="people discuss icon"
                 className=" "
@@ -82,7 +84,7 @@ export default function LandingPageSection2Component() {
             className="bg-primary rounded-[9px] p-[24px] col-span-2 md:col-span-1 flex flex-col md:gap-[20px] gap-[32px]"
           >
             <div className="relative w-[50px] h-[50px] md:w-[80px] md:h-[80px]">
-              <Image src={item.icon} alt="background Icon" fill />
+              <Image src={item.icon} alt="background Icon" fill loading="lazy"/>
             </div>
             <div className="flex flex-col gap-[12px] md:gap-[16px] max-w-[514px]">
               <div className="text-[24px] lg:text-[28px] text-light font-bold">

@@ -18,7 +18,13 @@ export default function LandingPageSection3Component() {
     <div className="bg-light2">
       <div className=" max-w-[1440px] m-auto px-[20px] py-[64px] md:px-[64px] md:py-[112px] flex flex-col md:flex-row gap-[px] lg:gap-[80px] items-center">
         <div className="w-[640px] h-[640px] min-w-[350px] relative hidden md:block">
-          <Image src={IndaLocations} alt="India locations" className=" " fill />
+          <Image
+            src={IndaLocations}
+            alt="India locations"
+            className=" "
+            fill
+            loading="lazy"
+          />
         </div>
         <div className="py-[52px] flex flex-col gap-[32px] max-w-[592px]">
           <div className="flex flex-col gap-[12px] md:gap-[16px]">
@@ -54,6 +60,7 @@ export default function LandingPageSection3Component() {
                       alt="Tick mark"
                       className=" "
                       fill
+                      loading="lazy"
                     />
                   </div>
                 </div>
@@ -63,7 +70,13 @@ export default function LandingPageSection3Component() {
           </div>
         </div>
         <div className="w-full h-[335px] relative md:hidden">
-          <Image src={IndaLocations} alt="India locations" className=" " fill />
+          <Image
+            src={IndaLocations}
+            alt="India locations"
+            className=" "
+            fill
+            loading="lazy"
+          />
         </div>
       </div>
     </div>

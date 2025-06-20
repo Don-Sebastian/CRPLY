@@ -8,7 +8,7 @@ import React from "react";
 export default function LandingPageSection1Component() {
   return (
     <div className="relative  h-[750px]">
-      <Image
+      <Image loading="lazy"
         src={PlywoodImageMain}
         alt="Plywood"
         className="-mt-[28px] absolute "

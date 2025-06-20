@@ -47,6 +47,7 @@ export default function LandingPageSection5Component() {
                 <div className="bg-secondary rounded-full  p-[8px]">
                   <div className="md:w-[14px] md:h-[14px] w-[12px] h-[12px] relative ">
                     <Image
+                      loading="lazy"
                       src={TickMarkLandingPage}
                       alt="Tick mark"
                       className=" "
@@ -61,6 +62,7 @@ export default function LandingPageSection5Component() {
         </div>
         <div className=" w-full h-[335px] md:w-[600px] md:h-[600px] relative">
           <Image
+            loading="lazy"
             src={GlobeImageLandingPage}
             alt="India locations"
             className=" "

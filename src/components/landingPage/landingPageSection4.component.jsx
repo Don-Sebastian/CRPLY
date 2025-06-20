@@ -28,6 +28,7 @@ export default function LandingPageSection4Component() {
         </div>
         <div className="w-full h-[350px] lg:w-[530px] lg:h-[500px] relative rounded-[10px] ">
           <Image
+            loading="lazy"
             src={PlywoodProductLogoLandingPage}
             alt="India locations"
             className=" rounded-[10px] "
